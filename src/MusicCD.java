@@ -184,4 +184,17 @@ public class MusicCD {
         return result;
     }
 
+    @Override
+    public String toString() {
+        return "MusicCD{" +
+                "artist='" + artist + '\'' +
+                ", composer='" + composer + '\'' +
+                ", title='" + title + '\'' +
+                ", tracksCount=" + tracksCount +
+                ", duration=" + duration +
+                ", favoriteTrack='" + favoriteTrack + '\'' +
+                ", purchaseDate=" + purchaseDate +
+                ", customerName='" + customerName + '\'' +
+                '}';
+    }
 }
